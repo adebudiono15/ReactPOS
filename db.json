@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "parfum"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "merk",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": ".jpg",
+      "category": {
+        "id": 1,
+        "nama": "Parfum"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 60000,
+      "product": {
+        "id": 1,
+        "kode_barang": "DCB00001",
+        "nama_barang": "Dobha 3 ml Lusin",
+        "satuan": "Lusin",
+        "nama_supplier_id": "1",
+        "stock": 999920,
+        "harga": 60000,
+        "kategori": "Parfum",
+        "harga_beli": 90000,
+        "created_at": "2020-12-11T04:32:09.000000Z",
+        "updated_at": "2021-01-07T02:35:35.000000Z"
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 100002,
+      "product": {
+        "id": 3,
+        "kode_barang": "DCB00003",
+        "nama_barang": "Dobha 3 ml Box",
+        "satuan": "Box",
+        "nama_supplier_id": "1",
+        "stock": 995295,
+        "harga": 100002,
+        "kategori": "Dobha",
+        "harga_beli": 90002,
+        "created_at": "2020-12-11T04:32:11.000000Z",
+        "updated_at": "2021-01-07T03:27:41.000000Z"
+      },
+      "id": 2
+    }
+  ],
+  "pesanans": []
+}
